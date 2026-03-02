@@ -1,0 +1,182 @@
+[2026-02-20T15:58:04.238Z] [INFO] K8 Automation API running on port 5000
+[2026-02-20T15:58:04.240Z] [INFO] Environment: development
+[2026-02-20T15:58:04.240Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-20T15:58:04.256Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-20T15:58:04.256Z] [INFO] Database: k8automation
+[2026-02-20T15:59:00.380Z] [INFO] K8 Automation API running on port 5000
+[2026-02-20T15:59:00.381Z] [INFO] Environment: development
+[2026-02-20T15:59:00.382Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-20T15:59:00.397Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-20T15:59:00.397Z] [INFO] Database: k8automation
+[2026-02-20T16:00:28.141Z] [DEBUG] JWT token generated successfully
+[2026-02-20T16:00:28.250Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-20T16:00:35.951Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-20T19:30:43.933Z] [INFO] K8 Automation API running on port 5000
+[2026-02-20T19:30:43.934Z] [INFO] Environment: development
+[2026-02-20T19:30:43.935Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-20T19:30:43.946Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-20T19:30:43.947Z] [INFO] Database: k8automation
+[2026-02-20T19:31:24.771Z] [DEBUG] JWT token generated successfully
+[2026-02-20T19:31:24.806Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-20T19:35:03.174Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-20T19:36:06.543Z] [DEBUG] JWT token generated successfully
+[2026-02-20T19:36:06.545Z] [INFO] User logged in: admin@test.com
+[2026-02-20T19:36:40.826Z] [INFO] User logged out: admin@test.com
+[2026-02-20T19:37:03.076Z] [WARN] Login attempt with incorrect password for: kosa@test.com
+[2026-02-20T19:37:08.216Z] [WARN] Login attempt with incorrect password for: kosa@test.com
+[2026-02-20T19:37:13.618Z] [WARN] Login attempt with incorrect password for: kosa@test.com
+[2026-02-20T19:37:17.535Z] [WARN] Login attempt with incorrect password for: kosa@test.com
+[2026-02-20T19:37:23.708Z] [WARN] Login attempt with incorrect password for: kosa@test.com
+[2026-02-20T19:37:41.469Z] [DEBUG] JWT token generated successfully
+[2026-02-20T19:37:41.471Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-20T20:07:14.449Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-20T20:07:39.891Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:07:39.893Z] [INFO] New user registered: test@test.com
+[2026-02-20T20:14:48.968Z] [INFO] K8 Automation API running on port 5000
+[2026-02-20T20:14:48.969Z] [INFO] Environment: development
+[2026-02-20T20:14:48.970Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-20T20:14:48.979Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-20T20:14:48.979Z] [INFO] Database: k8automation
+[2026-02-20T20:15:14.418Z] [INFO] User logged out: test@test.com
+[2026-02-20T20:16:15.490Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:16:15.493Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-20T20:19:29.224Z] [INFO] K8 Automation API running on port 5000
+[2026-02-20T20:19:29.225Z] [INFO] Environment: development
+[2026-02-20T20:19:29.225Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-20T20:19:29.237Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-20T20:19:29.238Z] [INFO] Database: k8automation
+[2026-02-20T20:19:59.204Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-20T20:20:09.061Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:20:09.064Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-20T20:20:27.510Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-20T20:20:41.926Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:20:41.929Z] [INFO] User logged in: admin@test.com
+[2026-02-20T20:22:57.496Z] [INFO] User logged out: admin@test.com
+[2026-02-20T20:25:06.680Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:25:06.682Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-20T20:29:07.300Z] [INFO] SIGINT signal received: closing HTTP server
+[2026-02-20T20:29:07.302Z] [INFO] HTTP server closed
+[2026-02-20T20:29:12.205Z] [INFO] K8 Automation API running on port 5000
+[2026-02-20T20:29:12.206Z] [INFO] Environment: development
+[2026-02-20T20:29:12.206Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-20T20:29:12.217Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-20T20:29:12.217Z] [INFO] Database: k8automation
+[2026-02-20T20:29:18.922Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-20T20:29:39.082Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:29:39.085Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-20T20:32:27.979Z] [INFO] K8 Automation API running on port 5000
+[2026-02-20T20:32:27.981Z] [INFO] Environment: development
+[2026-02-20T20:32:27.981Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-20T20:32:27.990Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-20T20:32:27.991Z] [INFO] Database: k8automation
+[2026-02-20T20:32:48.398Z] [INFO] K8 Automation API running on port 5000
+[2026-02-20T20:32:48.399Z] [INFO] Environment: development
+[2026-02-20T20:32:48.400Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-20T20:32:48.413Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-20T20:32:48.414Z] [INFO] Database: k8automation
+[2026-02-20T20:33:37.286Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-20T20:35:44.303Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:35:44.306Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-20T20:36:42.522Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-20T20:38:50.957Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:38:50.959Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-20T20:39:51.025Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-20T20:40:16.384Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:40:16.386Z] [INFO] User logged in: admin@test.com
+[2026-02-20T20:40:41.543Z] [INFO] User logged out: admin@test.com
+[2026-02-20T20:40:50.734Z] [WARN] Login attempt with incorrect password for: test@test.com
+[2026-02-20T20:40:54.625Z] [WARN] Login attempt with incorrect password for: test@test.com
+[2026-02-20T20:41:11.459Z] [DEBUG] JWT token generated successfully
+[2026-02-20T20:41:11.462Z] [INFO] New user registered: adelabubker245@gmail.com
+[2026-02-20T20:42:11.302Z] [INFO] User logged out: adelabubker245@gmail.com
+[2026-02-20T20:54:20.525Z] [INFO] K8 Automation API running on port 5000
+[2026-02-20T20:54:20.527Z] [INFO] Environment: development
+[2026-02-20T20:54:20.527Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-20T20:54:20.586Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-20T20:54:20.586Z] [INFO] Database: k8automation
+[2026-02-22T14:41:36.934Z] [INFO] K8 Automation API running on port 5000
+[2026-02-22T14:41:36.946Z] [INFO] Environment: development
+[2026-02-22T14:41:36.947Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-22T14:41:36.952Z] [ERROR] MongoDB Connection Error (Attempt 1/3): Server selection timed out after 5000 ms
+[2026-02-22T14:41:36.952Z] [INFO] Retrying in 2 seconds...
+[2026-02-22T14:41:38.997Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-22T14:41:38.997Z] [INFO] Database: k8automation
+[2026-02-22T14:42:06.051Z] [DEBUG] JWT token generated successfully
+[2026-02-22T14:42:06.059Z] [INFO] User logged in: admin@k8automation.io
+[2026-02-22T14:42:37.471Z] [INFO] User logged out: admin@k8automation.io
+[2026-02-26T21:19:47.017Z] [INFO] K8 Automation API running on port 5000
+[2026-02-26T21:19:47.018Z] [INFO] Environment: development
+[2026-02-26T21:19:47.018Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-26T21:19:47.030Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-26T21:19:47.031Z] [INFO] Database: k8automation
+[2026-02-26T21:37:35.442Z] [INFO] K8 Automation API running on port 5000
+[2026-02-26T21:37:35.443Z] [INFO] Environment: development
+[2026-02-26T21:37:35.444Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-26T21:37:35.454Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-26T21:37:35.454Z] [INFO] Database: k8automation
+[2026-02-26T21:38:03.996Z] [INFO] K8 Automation API running on port 5000
+[2026-02-26T21:38:03.997Z] [INFO] Environment: development
+[2026-02-26T21:38:03.997Z] [INFO] URL: http://localhost:5000/api/health
+[2026-02-26T21:38:04.008Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-02-26T21:38:04.008Z] [INFO] Database: k8automation
+[2026-03-01T00:49:40.532Z] [INFO] K8 Automation API running on port 5000
+[2026-03-01T00:49:40.533Z] [INFO] Environment: development
+[2026-03-01T00:49:40.533Z] [INFO] URL: http://localhost:5000/api/health
+[2026-03-01T00:49:45.401Z] [ERROR] MongoDB Connection Error (Attempt 1/3): connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-01T00:49:45.401Z] [INFO] Retrying in 2 seconds...
+[2026-03-01T00:49:52.407Z] [ERROR] MongoDB Connection Error (Attempt 2/3): connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-01T00:49:52.407Z] [INFO] Retrying in 4 seconds...
+[2026-03-01T00:50:01.416Z] [ERROR] MongoDB Connection Error (Attempt 3/3): connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-01T00:50:01.416Z] [ERROR] Failed to connect to MongoDB after maximum retries
+[2026-03-01T01:15:33.166Z] [INFO] K8 Automation API running on port 5000
+[2026-03-01T01:15:33.166Z] [INFO] Environment: development
+[2026-03-01T01:15:33.167Z] [INFO] URL: http://localhost:5000/api/health
+[2026-03-01T01:15:37.951Z] [ERROR] MongoDB Connection Error (Attempt 1/3): connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-01T01:15:37.951Z] [INFO] Retrying in 2 seconds...
+[2026-03-01T01:15:44.966Z] [ERROR] MongoDB Connection Error (Attempt 2/3): connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-01T01:15:44.966Z] [INFO] Retrying in 4 seconds...
+[2026-03-01T01:15:53.972Z] [ERROR] MongoDB Connection Error (Attempt 3/3): connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2026-03-01T01:15:53.973Z] [ERROR] Failed to connect to MongoDB after maximum retries[2026-03-01T17:58:23.963Z] [INFO] K8 Automation API running on port 5000
+[2026-03-01T17:58:23.965Z] [INFO] Environment: development
+[2026-03-01T17:58:23.965Z] [INFO] URL: http://localhost:5000/api/health
+[2026-03-01T17:58:24.024Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-03-01T17:58:24.024Z] [INFO] Database: k8automation
+[2026-03-01T17:59:11.205Z] [DEBUG] JWT token generated successfully
+[2026-03-01T17:59:11.285Z] [INFO] User logged in: admin@k8automation.io
+[2026-03-01T18:00:29.873Z] [INFO] User logged out: admin@k8automation.io
+[2026-03-01T18:00:51.558Z] [DEBUG] JWT token generated successfully
+[2026-03-01T18:00:51.560Z] [INFO] New user registered: kosa@gmail.com
+[2026-03-01T18:01:05.095Z] [WARN] User 69a47ed34edea43889bdb6ba attempted unauthorized access. Required roles: fullAdmin, User role: user
+[2026-03-01T18:01:09.476Z] [INFO] User logged out: kosa@gmail.com
+[2026-03-01T18:01:18.728Z] [DEBUG] JWT token generated successfully
+[2026-03-01T18:01:18.731Z] [INFO] User logged in: admin@k8automation.io
+[2026-03-01T18:25:04.474Z] [DEBUG] JWT verification error: "jwt expired"
+[2026-03-01T18:25:04.478Z] [DEBUG] JWT verification error: "jwt expired"
+[2026-03-01T19:27:12.840Z] [INFO] K8 Automation API running on port 5000
+[2026-03-01T19:27:12.841Z] [INFO] Environment: development
+[2026-03-01T19:27:12.842Z] [INFO] URL: http://localhost:5000/api/health
+[2026-03-01T19:27:12.856Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-03-01T19:27:12.857Z] [INFO] Database: k8automation
+[2026-03-01T19:27:25.601Z] [INFO] K8 Automation API running on port 5000
+[2026-03-01T19:27:25.602Z] [INFO] Environment: development
+[2026-03-01T19:27:25.602Z] [INFO] URL: http://localhost:5000/api/health
+[2026-03-01T19:27:25.618Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-03-01T19:27:25.618Z] [INFO] Database: k8automation
+[2026-03-01T19:35:25.666Z] [INFO] K8 Automation API running on port 5000
+[2026-03-01T19:35:25.667Z] [INFO] Environment: development
+[2026-03-01T19:35:25.668Z] [INFO] URL: http://localhost:5000/api/health
+[2026-03-01T19:35:25.682Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-03-01T19:35:25.683Z] [INFO] Database: k8automation
+[2026-03-01T19:35:55.565Z] [INFO] K8 Automation API running on port 5000
+[2026-03-01T19:35:55.567Z] [INFO] Environment: development
+[2026-03-01T19:35:55.568Z] [INFO] URL: http://localhost:5000/api/health
+[2026-03-01T19:35:55.579Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-03-01T19:35:55.580Z] [INFO] Database: k8automation
+[2026-03-01T23:30:04.080Z] [INFO] K8 Automation API running on port 5000
+[2026-03-01T23:30:04.081Z] [INFO] Environment: development
+[2026-03-01T23:30:04.082Z] [INFO] URL: http://localhost:5000/api/health
+[2026-03-01T23:30:04.095Z] [INFO] MongoDB connected successfully to localhost:27017
+[2026-03-01T23:30:04.096Z] [INFO] Database: k8automation
+[2026-03-01T23:34:22.018Z] [DEBUG] JWT token generated successfully
+[2026-03-01T23:34:22.027Z] [INFO] User logged in: admin@k8automation.io
+[2026-03-01T23:35:11.575Z] [INFO] User logged out: admin@k8automation.io
