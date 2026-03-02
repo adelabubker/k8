@@ -1,6 +1,7 @@
 // controllers/authController.js — Authentication: register, login, logout
 const User = require('../models/User');
 const generateToken = require('../utils/generateToken');
+const { encrypt } = require('../utils/cryptoUtils');
 const logger = require('../utils/logger');
 const { SUCCESS, ERRORS, HTTP_STATUS, ROLES } = require('../constants');
 
@@ -34,9 +35,9 @@ const register = async (req, res, next) => {
     // Create user (password auto-hashed via pre-save hook)
     const user = await User.create({ name, email, password });
 
-    // Generate JWT and store in DB
+    // Generate JWT and store in DB (encrypted)
     const token = generateToken(user._id);
-    user.token = token;
+    user.token = encrypt(token);
     await user.save({ validateBeforeSave: false });
 
     logger.info(`New user registered: ${email}`);
@@ -96,9 +97,9 @@ const login = async (req, res, next) => {
       });
     }
 
-    // Generate new JWT and update in DB
+    // Generate new JWT and update in DB (encrypted)
     const token = generateToken(user._id);
-    user.token = token;
+    user.token = encrypt(token);
     await user.save({ validateBeforeSave: false });
 
     logger.info(`User logged in: ${email}`);

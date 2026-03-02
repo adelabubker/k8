@@ -1,6 +1,7 @@
 // middleware/auth.js — JWT + role-based access control middleware
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
+const { decrypt } = require('../utils/cryptoUtils');
 const logger = require('../utils/logger');
 const { ERRORS, HTTP_STATUS, ROLES } = require('../constants');
 
@@ -40,7 +41,19 @@ const protect = async (req, res, next) => {
         });
       }
 
-      if (user.token !== token) {
+      // Decrypt stored token for comparison
+      let decryptedStoredToken;
+      try {
+        decryptedStoredToken = user.token ? decrypt(user.token) : null;
+      } catch (decryptError) {
+        logger.error(`Token decryption failed for user: ${user._id}`, decryptError);
+        return res.status(HTTP_STATUS.UNAUTHORIZED).json({
+          success: false,
+          message: ERRORS.AUTH_INVALID_TOKEN,
+        });
+      }
+
+      if (decryptedStoredToken !== token) {
         logger.warn(`Token mismatch for user: ${user._id}`);
         return res.status(HTTP_STATUS.UNAUTHORIZED).json({
           success: false,
